@@ -3,11 +3,11 @@ class Pirate
 
   PIRATES = []
 
-  def initialize
+  def initialize(params)
     binding.pry
-    @name = pirate[:name]
-    @weight = pirate[:weight]
-    @height = pirate[:height]
+    @name = params[:name]
+    @weight = params[:weight]
+    @height = params[:height]
     PIRATES << self
   end
 
