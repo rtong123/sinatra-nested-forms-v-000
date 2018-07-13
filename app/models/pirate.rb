@@ -7,7 +7,7 @@ class Pirate
     binding.pry
     @name = pirate[:name]
     @weight = pirate[:weight]
-    @height = params[:height]
+    @height = pirate[:height]
     PIRATES << self
   end
 
