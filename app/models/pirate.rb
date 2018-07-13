@@ -6,7 +6,6 @@ class Pirate
   def initialize(params)
     @name = params[:name]
     @weight = params[:weight]
-    binding.pry
     @height = params[:height]
     PIRATES << self
   end
