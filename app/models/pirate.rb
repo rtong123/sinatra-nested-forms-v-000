@@ -4,8 +4,7 @@ class Pirate
   PIRATES = []
 
   def initialize
-    binding.pry
-    @name = params[:name]
+    @name = pirate[:name]
     @weight = params[:weight]
     @height = params[:height]
     PIRATES << self
