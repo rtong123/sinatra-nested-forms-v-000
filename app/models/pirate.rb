@@ -6,7 +6,7 @@ class Pirate
   def initialize
     binding.pry
     @name = pirate[:name]
-    @weight = params[:weight]
+    @weight = pirate[:weight]
     @height = params[:height]
     PIRATES << self
   end
